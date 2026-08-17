@@ -2,7 +2,7 @@ name: flutter_application_1
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -34,7 +34,6 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
-  
 
 dev_dependencies:
   flutter_test:
@@ -53,7 +52,6 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
-
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
@@ -64,10 +62,30 @@ flutter:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
   assets:
-   - assets/images/Boneco.png
-   - assets/images/botao.png
-   - assets/images/retornar.png
-   - assets/images/Audioteste.mp3
+    - assets/audios/Audioteste.mp3
+    - assets/images/boneco.png
+    - assets/images/botao.png
+    - assets/images/com_duvida.png
+    - assets/images/com_sono.png
+    - assets/images/Curativo.png
+    - assets/images/dor_barriga.png
+    - assets/images/Dor_no_punho.png
+    - assets/images/dor_no_ouvido.png
+    - assets/images/dor_parte_intima.png
+    - assets/images/dor_pe.png
+    - assets/images/dor_perna.png
+    - assets/images/feliz.png
+    - assets/images/ir_ao_banheiro.png
+    - assets/images/irritado.png
+    - assets/images/retornar.png
+    - assets/images/triste.png
+    - assets/images/dor_braco.png
+    - assets/images/fome.png
+    - assets/images/dor_mao.png
+    - assets/images/dor_cabeca.png
+    - assets/images/barriga.png
+    - assets/icones/logo_app.png
+
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
 
